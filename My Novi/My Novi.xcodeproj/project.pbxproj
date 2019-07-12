@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E04B7B6220332D600B957A0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E04B7B5220332D600B957A0 /* logo.png */; };
+		3E2AC2032249141200CCD82B /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AC2022249141100CCD82B /* header.png */; };
+		3E3297F22202D795008DB4D6 /* Facebook96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3297ED2202D794008DB4D6 /* Facebook96.png */; };
+		3E3297F42202D795008DB4D6 /* StaffDirectory96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3297EF2202D794008DB4D6 /* StaffDirectory96.png */; };
+		3E3297F52202D795008DB4D6 /* Search96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3297F02202D794008DB4D6 /* Search96.png */; };
+		3E3297F62202D795008DB4D6 /* StudioNoVI96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3297F12202D794008DB4D6 /* StudioNoVI96.png */; };
+		3E35DA5A21A59F1A00E91F59 /* Calendar96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5121A59F1A00E91F59 /* Calendar96.png */; };
+		3E35DA5B21A59F1A00E91F59 /* JobOpps96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5221A59F1A00E91F59 /* JobOpps96.png */; };
+		3E35DA5D21A59F1A00E91F59 /* PayBills96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5421A59F1A00E91F59 /* PayBills96.png */; };
+		3E35DA5F21A59F1A00E91F59 /* Connect96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5621A59F1A00E91F59 /* Connect96.png */; };
+		3E35DA6021A59F1A00E91F59 /* Construction96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5721A59F1A00E91F59 /* Construction96.png */; };
+		3E35DA6121A59F1A00E91F59 /* CityWebsite96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5821A59F1A00E91F59 /* CityWebsite96.png */; };
+		3E35DA6221A59F1A00E91F59 /* DevProjects96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E35DA5921A59F1A00E91F59 /* DevProjects96.png */; };
+		3E3C6D51223FDC44002D33F6 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C6D4D223FDC43002D33F6 /* TPKeyboardAvoidingCollectionView.m */; };
+		3E3C6D52223FDC44002D33F6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C6D4E223FDC43002D33F6 /* TPKeyboardAvoidingScrollView.m */; };
+		3E3C6D53223FDC44002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C6D4F223FDC43002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3E3C6D54223FDC44002D33F6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C6D50223FDC43002D33F6 /* TPKeyboardAvoidingTableView.m */; };
+		3E7E5CA62226C144000AC3FE /* Recreation96.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E5CA52226C144000AC3FE /* Recreation96.png */; };
+		3E806DCE223BC58800376649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E806DCD223BC58800376649 /* Assets.xcassets */; };
+		3E93121321882C6700636764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93121221882C6700636764 /* AppDelegate.swift */; };
+		3E93121521882C6700636764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93121421882C6700636764 /* ViewController.swift */; };
+		3E93121821882C6700636764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E93121621882C6700636764 /* Main.storyboard */; };
+		3E93121D21882C6800636764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E93121B21882C6800636764 /* LaunchScreen.storyboard */; };
+		3E9312252188445D00636764 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9312242188445D00636764 /* DashboardCell.swift */; };
+		3E93122A21884A5000636764 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E93122921884A5000636764 /* WebKit.framework */; };
+		3E9312692188751100636764 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9312682188751100636764 /* Items.swift */; };
+		8020CC2922D9054100561702 /* ParksRecRegistration96.png in Resources */ = {isa = PBXBuildFile; fileRef = 8020CC2822D9054100561702 /* ParksRecRegistration96.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E04B7B5220332D600B957A0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3E2AC2022249141100CCD82B /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		3E3297ED2202D794008DB4D6 /* Facebook96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook96.png; sourceTree = "<group>"; };
+		3E3297EF2202D794008DB4D6 /* StaffDirectory96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StaffDirectory96.png; sourceTree = "<group>"; };
+		3E3297F02202D794008DB4D6 /* Search96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search96.png; sourceTree = "<group>"; };
+		3E3297F12202D794008DB4D6 /* StudioNoVI96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudioNoVI96.png; sourceTree = "<group>"; };
+		3E35DA5121A59F1A00E91F59 /* Calendar96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar96.png; sourceTree = "<group>"; };
+		3E35DA5221A59F1A00E91F59 /* JobOpps96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JobOpps96.png; sourceTree = "<group>"; };
+		3E35DA5421A59F1A00E91F59 /* PayBills96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PayBills96.png; sourceTree = "<group>"; };
+		3E35DA5621A59F1A00E91F59 /* Connect96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connect96.png; sourceTree = "<group>"; };
+		3E35DA5721A59F1A00E91F59 /* Construction96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Construction96.png; sourceTree = "<group>"; };
+		3E35DA5821A59F1A00E91F59 /* CityWebsite96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityWebsite96.png; sourceTree = "<group>"; };
+		3E35DA5921A59F1A00E91F59 /* DevProjects96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DevProjects96.png; sourceTree = "<group>"; };
+		3E3C6D48223FDC42002D33F6 /* My Novi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Novi-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E3C6D49223FDC43002D33F6 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h"; sourceTree = SOURCE_ROOT; };
+		3E3C6D4A223FDC43002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = SOURCE_ROOT; };
+		3E3C6D4B223FDC43002D33F6 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h"; sourceTree = SOURCE_ROOT; };
+		3E3C6D4C223FDC43002D33F6 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h"; sourceTree = SOURCE_ROOT; };
+		3E3C6D4D223FDC43002D33F6 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m"; sourceTree = SOURCE_ROOT; };
+		3E3C6D4E223FDC43002D33F6 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m"; sourceTree = SOURCE_ROOT; };
+		3E3C6D4F223FDC43002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = SOURCE_ROOT; };
+		3E3C6D50223FDC43002D33F6 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = "My Novi/Third Party Libraries/TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m"; sourceTree = SOURCE_ROOT; };
+		3E7E5CA52226C144000AC3FE /* Recreation96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recreation96.png; sourceTree = "<group>"; };
+		3E806DCD223BC58800376649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "My Novi/Assets.xcassets"; sourceTree = "<group>"; };
+		3E93120F21882C6700636764 /* My Novi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Novi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E93121221882C6700636764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E93121421882C6700636764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E93121721882C6700636764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E93121C21882C6800636764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E93121E21882C6800636764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9312242188445D00636764 /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		3E93122921884A5000636764 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3E9312682188751100636764 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		8020CC2822D9054100561702 /* ParksRecRegistration96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParksRecRegistration96.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E93120C21882C6700636764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E93122A21884A5000636764 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3C6D39223FDBAC002D33F6 /* Third Party Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C6D47223FDC22002D33F6 /* TPKeyboardAvoiding */,
+			);
+			path = "Third Party Libraries";
+			sourceTree = "<group>";
+		};
+		3E3C6D47223FDC22002D33F6 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C6D4C223FDC43002D33F6 /* TPKeyboardAvoidingCollectionView.h */,
+				3E3C6D4D223FDC43002D33F6 /* TPKeyboardAvoidingCollectionView.m */,
+				3E3C6D4B223FDC43002D33F6 /* TPKeyboardAvoidingScrollView.h */,
+				3E3C6D4E223FDC43002D33F6 /* TPKeyboardAvoidingScrollView.m */,
+				3E3C6D49223FDC43002D33F6 /* TPKeyboardAvoidingTableView.h */,
+				3E3C6D50223FDC43002D33F6 /* TPKeyboardAvoidingTableView.m */,
+				3E3C6D4A223FDC43002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				3E3C6D4F223FDC43002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				3E3C6D48223FDC42002D33F6 /* My Novi-Bridging-Header.h */,
+			);
+			name = TPKeyboardAvoiding;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3E93120621882C6700636764 = {
+			isa = PBXGroup;
+			children = (
+				3E806DCD223BC58800376649 /* Assets.xcassets */,
+				3E93121121882C6700636764 /* My Novi */,
+				3E93121021882C6700636764 /* Products */,
+				3E93122821884A4F00636764 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E93121021882C6700636764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E93120F21882C6700636764 /* My Novi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E93121121882C6700636764 /* My Novi */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C6D39223FDBAC002D33F6 /* Third Party Libraries */,
+				3E931267218874A500636764 /* Objects */,
+				3E931250218872BB00636764 /* Images */,
+				3E93121221882C6700636764 /* AppDelegate.swift */,
+				3E93124F2188709500636764 /* Cells */,
+				3E93124D2188705700636764 /* Controllers */,
+				3E93124E2188706400636764 /* Storyboard */,
+				3E93121E21882C6800636764 /* Info.plist */,
+			);
+			path = "My Novi";
+			sourceTree = "<group>";
+		};
+		3E93122821884A4F00636764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E93122921884A5000636764 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E93124D2188705700636764 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E93121421882C6700636764 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E93124E2188706400636764 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3E93121621882C6700636764 /* Main.storyboard */,
+				3E93121B21882C6800636764 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3E93124F2188709500636764 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E9312242188445D00636764 /* DashboardCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3E931250218872BB00636764 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8020CC2822D9054100561702 /* ParksRecRegistration96.png */,
+				3E2AC2022249141100CCD82B /* header.png */,
+				3E7E5CA52226C144000AC3FE /* Recreation96.png */,
+				3E04B7B5220332D600B957A0 /* logo.png */,
+				3E35DA5121A59F1A00E91F59 /* Calendar96.png */,
+				3E35DA5821A59F1A00E91F59 /* CityWebsite96.png */,
+				3E35DA5621A59F1A00E91F59 /* Connect96.png */,
+				3E35DA5721A59F1A00E91F59 /* Construction96.png */,
+				3E35DA5921A59F1A00E91F59 /* DevProjects96.png */,
+				3E3297ED2202D794008DB4D6 /* Facebook96.png */,
+				3E35DA5221A59F1A00E91F59 /* JobOpps96.png */,
+				3E35DA5421A59F1A00E91F59 /* PayBills96.png */,
+				3E3297F02202D794008DB4D6 /* Search96.png */,
+				3E3297EF2202D794008DB4D6 /* StaffDirectory96.png */,
+				3E3297F12202D794008DB4D6 /* StudioNoVI96.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3E931267218874A500636764 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3E9312682188751100636764 /* Items.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E93120E21882C6700636764 /* My Novi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E93122121882C6800636764 /* Build configuration list for PBXNativeTarget "My Novi" */;
+			buildPhases = (
+				3E93120B21882C6700636764 /* Sources */,
+				3E93120C21882C6700636764 /* Frameworks */,
+				3E93120D21882C6700636764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Novi";
+			productName = "My Novi";
+			productReference = 3E93120F21882C6700636764 /* My Novi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E93120721882C6700636764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					3E93120E21882C6700636764 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 3E93120A21882C6700636764 /* Build configuration list for PBXProject "My Novi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E93120621882C6700636764;
+			productRefGroup = 3E93121021882C6700636764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E93120E21882C6700636764 /* My Novi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E93120D21882C6700636764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E35DA6221A59F1A00E91F59 /* DevProjects96.png in Resources */,
+				3E35DA5D21A59F1A00E91F59 /* PayBills96.png in Resources */,
+				3E04B7B6220332D600B957A0 /* logo.png in Resources */,
+				3E806DCE223BC58800376649 /* Assets.xcassets in Resources */,
+				3E3297F22202D795008DB4D6 /* Facebook96.png in Resources */,
+				3E7E5CA62226C144000AC3FE /* Recreation96.png in Resources */,
+				3E2AC2032249141200CCD82B /* header.png in Resources */,
+				3E3297F52202D795008DB4D6 /* Search96.png in Resources */,
+				3E93121D21882C6800636764 /* LaunchScreen.storyboard in Resources */,
+				3E3297F62202D795008DB4D6 /* StudioNoVI96.png in Resources */,
+				3E35DA5B21A59F1A00E91F59 /* JobOpps96.png in Resources */,
+				3E35DA5F21A59F1A00E91F59 /* Connect96.png in Resources */,
+				8020CC2922D9054100561702 /* ParksRecRegistration96.png in Resources */,
+				3E35DA6021A59F1A00E91F59 /* Construction96.png in Resources */,
+				3E93121821882C6700636764 /* Main.storyboard in Resources */,
+				3E35DA5A21A59F1A00E91F59 /* Calendar96.png in Resources */,
+				3E35DA6121A59F1A00E91F59 /* CityWebsite96.png in Resources */,
+				3E3297F42202D795008DB4D6 /* StaffDirectory96.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E93120B21882C6700636764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C6D51223FDC44002D33F6 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3E93121521882C6700636764 /* ViewController.swift in Sources */,
+				3E9312692188751100636764 /* Items.swift in Sources */,
+				3E3C6D52223FDC44002D33F6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3E9312252188445D00636764 /* DashboardCell.swift in Sources */,
+				3E3C6D54223FDC44002D33F6 /* TPKeyboardAvoidingTableView.m in Sources */,
+				3E93121321882C6700636764 /* AppDelegate.swift in Sources */,
+				3E3C6D53223FDC44002D33F6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E93121621882C6700636764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E93121721882C6700636764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E93121B21882C6800636764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E93121C21882C6800636764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E93121F21882C6800636764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E93122021882C6800636764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E93122221882C6800636764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBCC52ZW6M;
+				INFOPLIST_FILE = "My Novi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muniweb.MyNovi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "My Novi/Third Party Libraries/New Group/My Novi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E93122321882C6800636764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBCC52ZW6M;
+				INFOPLIST_FILE = "My Novi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muniweb.MyNovi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "My Novi/Third Party Libraries/New Group/My Novi-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E93120A21882C6700636764 /* Build configuration list for PBXProject "My Novi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E93121F21882C6800636764 /* Debug */,
+				3E93122021882C6800636764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E93122121882C6800636764 /* Build configuration list for PBXNativeTarget "My Novi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E93122221882C6800636764 /* Debug */,
+				3E93122321882C6800636764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E93120721882C6700636764 /* Project object */;
+}
